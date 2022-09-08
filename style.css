@@ -38,6 +38,7 @@ body {
 .header {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .headerlinks {
@@ -56,9 +57,18 @@ body {
 }
 
 .intro {
+    display: flex;
 
 }
 
 a {
     color: grey;
+}
+
+p {
+    color: #f9faf8;
+}
+
+.rep {
+    color: #e5e7eb;
 }
