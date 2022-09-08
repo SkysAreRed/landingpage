@@ -69,6 +69,7 @@ body {
 
 .introbutton {
     padding: 12px 32px;
+    margin-top: 10px;
     border: none;
     border-radius: 8px;
     background: #3882f6;
