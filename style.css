@@ -40,7 +40,14 @@ body {
     text-decoration: none;
 } /* end of nav bar */
 
-
+.container {
+    background-clip: padding-box;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    padding-left: 225px;
+    padding-right: 225px;
+}
 
 
 .footer {
