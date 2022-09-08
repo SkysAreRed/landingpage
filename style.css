@@ -42,6 +42,8 @@ body {
 
 .headerlinks {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 } /* end of nav bar */
 
 .container { /* everything except nav and footer */
