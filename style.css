@@ -45,7 +45,7 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-} /* end of nav bar */
+} /* end of nav bar ##################### */
 
 .container { /* everything except nav and footer ################# */
     background-clip: padding-box;
@@ -95,9 +95,35 @@ body {
 
 .introheader {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #f9faf8;
 }   /* end of intro  ####################################3 */
+
+.randominfocontainer { /* start of randominfo ########################### */
+    background-clip: padding-box;
+    background-color: white;
+    padding: 0 325px;
+}
+
+.randominfoheader {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 48px 0;
+}
+
+.randominfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 52px;
+    text-align: center;
+    color: grey;
+    padding-bottom: 64px;
+} /* end of random info ################################# */
+
+
 
 a {
     color: grey;
