@@ -119,11 +119,23 @@ body {
     justify-content: space-between;
     gap: 52px;
     text-align: center;
-    color: grey;
+    color: darkgrey;
     padding-bottom: 64px;
 } /* end of random info ################################# */
 
+.quotecontainer { /* start of quote ############################# */
+    background-clip: padding-box;
+    background-color: #e5e7eb;
+    padding: 0 325px;
+}
 
+
+
+.signupboxcontainer { /* start of signup box ########################### */
+    background-color: white;
+    background-clip: padding-box;
+    padding: 0 225px;
+}
 
 a {
     color: grey;
