@@ -47,19 +47,54 @@ body {
     color: #e5e7eb;
 } /* end of nav bar */
 
-.container { /* everything except nav and footer */
+.container { /* everything except nav and footer ################# */
     background-clip: padding-box;
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding-left: 225px;
-    padding-right: 225px;
+}
+
+.introcontainer { /* start of intro ######################### */
+    background-clip: padding-box;
+    background-color: #1f2937;
+    padding: 0 225px;
 }
 
 .intro {
     display: flex;
-
+    align-items: center;
+    padding: 100px 0;
+    justify-content: space-between;
 }
+
+.introbutton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+}
+
+.leftintro {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.rightintro {
+    display: flex;
+    padding-left: 25px;
+}
+
+.introtext {
+    color: white;
+    font-size: 18px;
+}
+
+.introheader {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}   /* end of intro  ####################################3 */
 
 a {
     color: grey;
