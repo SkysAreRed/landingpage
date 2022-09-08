@@ -129,7 +129,15 @@ body {
     padding: 0 325px;
 }
 
-
+.quote {
+    padding: 48px 0;
+}
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+}
 
 .signupboxcontainer { /* start of signup box ########################### */
     background-color: white;
