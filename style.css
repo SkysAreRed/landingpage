@@ -68,11 +68,13 @@ body {
 }
 
 .introbutton {
-    padding: 8px 16px;
+    padding: 12px 32px;
     border: none;
     border-radius: 8px;
     background: #3882f6;
     color: white;
+    font-size: large;
+    font-weight: bolder;
 }
 
 .leftintro {
