@@ -14,10 +14,18 @@ body {
     width: 800px;
 }
 
-.nav { /* bar that holds header */
+.navbody {
+    background-color: #1f2937;
+}
+
+.nav { /* bar that holds header */ /* nav navlinks header and headerlinks all part of nav bar */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
+    /* background-color: yellow; */
+    margin-left: 225px;
+    margin-right: 225px;
 }
 
 .navlinks {
@@ -30,11 +38,13 @@ body {
 
 .headerlinks {
     text-decoration: none;
-}
+} /* end of nav bar */
+
+
 
 
 .footer {
-
+    background-color: #1f2937;
 }
 
 a {
