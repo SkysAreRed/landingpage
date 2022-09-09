@@ -139,6 +139,12 @@ body {
     text-align: justify;
 }
 
+.quotedby {
+    text-align: end;
+    font-weight: 900;
+    font-size: 24px;
+}
+
 .signupboxcontainer { /* start of signup box ########################### */
     background-color: white;
     background-clip: padding-box;
