@@ -113,8 +113,13 @@ body {
     padding: 48px 0;
 }
 
+.randominfotiles {
+    width: 160px;
+}
+
 .randominfo {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 52px;
