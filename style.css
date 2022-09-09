@@ -143,12 +143,35 @@ body {
     text-align: end;
     font-weight: 900;
     font-size: 24px;
-}
+} /* end of quote box ################################################# */
 
 .signupboxcontainer { /* start of signup box ########################### */
     background-color: white;
     background-clip: padding-box;
     padding: 0 225px;
+}
+
+.signupbox {
+    background-color: #3882f6;
+    display: flex;
+    background-clip: padding-box;
+    padding: 50px 100px;
+    margin: 100px 0;
+    border-radius: 8px;
+}
+
+.signupboxleft {
+    color: white;
+}
+
+.signupboxbutton {
+    padding: 12px 32px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
 }
 
 a {
@@ -161,4 +184,9 @@ p {
 
 .rep {
     color: #e5e7eb;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
 }
